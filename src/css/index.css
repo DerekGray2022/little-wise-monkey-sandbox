@@ -1,0 +1,32 @@
+*
+{
+  --primary: #0a1d0a;
+  --light: #2effb9;
+  --dark: #304930;
+  --aboutBg: #024522;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @font-face {
+    font-family: "Eurostile";
+    src: url("../assets/fonts/Eurosti.TTF");
+  }
+  @font-face {
+    font-family: "EurostileBold";
+    src: url("../assets/fonts/Eurostib.TTF");
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Eurostile", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

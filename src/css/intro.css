@@ -1,0 +1,9 @@
+.intro
+{
+    background-image: url(../assets/images/OldMan_GRN.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
